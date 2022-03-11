@@ -37,14 +37,14 @@ body {
 	font-size: 1.1em;
 	font-weight: bold;
 }
-.contato {
+.email {
 	font-weight: bold;
 }
 .menu {
 	
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	align-items: center;
 	width: 90%;
 }
@@ -60,7 +60,7 @@ body {
 	flex-direction: column;
 	align-items: flex-start;
 	padding: 25px;
-	
+	width: 90%;
 }
 .menu__titulo {
 	font-family: Raleway;
@@ -88,7 +88,8 @@ body {
 	left: 0px;
 	top: 222px;
 	padding-top: 30px;
-	text-decoration: none;
+	text-decoration: none;top: 132px
+
 }
 .menu__rede {
 
@@ -96,9 +97,9 @@ body {
 	flex: none;
 	order: 2;
 	flex-grow: 0;
-	margin: 24px 0px;
+	margin: 14px 0px;
 	color: #464646;
-	margin-right: 40px;
+	margin-right: 20px;
 }
 .menu__rede:after {
 	content: "🡥";
@@ -113,7 +114,6 @@ body {
 	flex-direction: column;
 	align-items: center;
 	padding: 64px;
-
 	position: static;
 	width: 90%;
 	height: 30%;
@@ -329,8 +329,8 @@ body {
 .experiencia__repositorio:hover {
 	cursor: pointer;
 	font-weight: bold;
-	color: #3A7AE4;
-	border: 2px solid #3A7AE4;
+	color: #5595E9;
+	border: 2px solid #5595E9;
 }
 .experiencia__demo {
 	position: static;
@@ -351,14 +351,14 @@ body {
 }
 .contato {
 	background: #EAF2FD;
-	width: 100%;
+	width: 90%;
 	display: flex;
 	
 }
 .contato__imagem {
 	position: static;
-	width: 464px;
-	height: 593px;
+	width: 60%;
+	
 	left: 0px;
 	top: 65.5px;
 }
@@ -427,7 +427,7 @@ body {
 	.cabecalho__item {
 		display:none;
 	}
-	.contato {
+	.email {
 		font-family: Relaway;
 		color: #464646;
 		display: flex;
@@ -448,14 +448,25 @@ body {
 	.menu__principal {
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		
 	
 	}
 	.menu__titulo {
 		font-size: 30px;
 		line-height: 35px;
+		width: 100%;
+		text-align: justify;
 
+	}
+	.menu__rede {
+		margin: auto;
+	}
+	.sobre {
+		display: flex;
+		justify-content: center;
+		padding-left: 64px;
+		
+		
 	}
 	.skills {
 		display: flex;
