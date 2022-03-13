@@ -1,0 +1,50 @@
+.cabecalho {
+	background: #F5F5F5;
+	width: 97%;
+}
+.cabecalho__principal {
+	display: flex;
+	align-items: center;
+	margin-left: 3%;
+ }
+.cabecalho__nome {
+	display: flex;
+	height: 20%;
+	width: 30%;
+	margin: 2%;
+	text-decoration: none;
+	font-weight: bold;
+	color: #464646;
+	font-size: 20px;
+
+}
+.cabecalho__nome:hover {
+	font-size: 25px;
+	font-weight: bold;
+}
+.cabecalho__item {
+	display: flex-row;
+	text-decoration: none;
+	padding-right: 20px;
+	color: #464646;
+
+}
+.cabecalho__item:hover {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.email {
+	font-weight: bold;
+}
+@media (max-width: 768px){
+	.cabecalho__item {
+		display:none;
+	}
+	.email {
+		font-family: Relaway;
+		color: #464646;
+		display: flex;
+		font-weight: normal;
+		align-self: flex-start;
+	}
+}

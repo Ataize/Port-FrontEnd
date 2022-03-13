@@ -1,0 +1,46 @@
+.sobre {
+	background: #EAF2FD;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 64px;
+	position: static;
+	width: 90%;
+	height: 30%;
+	left: 0px;
+	top: 520px;
+}
+.sobre__subtitulo {
+	font-family: Raleway;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 38px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #464646;
+}
+.sobre__texto {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	color: #464646;
+	padding-top: 30px;
+	width: 90%;
+}
+.sobre__rubrica {
+	position: static;
+	width: 140px;
+	height: 52px;
+	left: 0px;
+	top: 203px;
+}
+@media (max-width: 768px){
+		.sobre {
+			display: flex;
+			justify-content: center;
+			padding-left: 64px;
+			
+		}

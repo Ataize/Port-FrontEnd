@@ -1,0 +1,100 @@
+.experiencia {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.experiencia__titulo {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	color: #464646;
+}
+.experiencia__projetos {
+	display: flex;
+	justify-content: space-around;
+	margin: 5%;
+}
+.experiencia__imagem {
+	width: 60%;
+	max-width: 450px;
+}
+.experiencia__projeto {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 5%;
+}
+.experiencia__nome {
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 25px;
+	color: #464646;
+	justify-content: center;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.experiencia__descricao {
+	font-family: Raleway;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #464646;
+}
+.experiencia__botoes {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	margin-top: 10px;
+}
+.experiencia__repositorio {
+	position: static;
+	width: 105px;
+	height: 51px;
+	left: 132px;
+	top: 0px;
+	color: #2A7AE4;
+	border: 1px solid #2A7AE4;
+	box-sizing: border-box;
+	margin-right: 10px;
+}
+.experiencia__repositorio:hover {
+	cursor: pointer;
+	font-weight: bold;
+	color: #5595E9;
+	border: 2px solid #5595E9;
+}
+.experiencia__demo {
+	position: static;
+	width: 105px;
+	height: 51px;
+	left: 132px;
+	top: 0px;
+	background: #2A7AE4;
+	border: 1px solid #2A7AE4;
+	box-sizing: border-box;
+	color: white;
+	transform: 1s;
+}
+.experiencia__demo:hover {
+	cursor: pointer;
+	font-weight: bold;
+	background: #4D4DFF;
+}
+@media (max-width: 768px){
+		.experiencia__projetos {
+			display: flex colum;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.experiencia__imagem {
+			width: 100%;
+			order: -1;
+		}
+	}
