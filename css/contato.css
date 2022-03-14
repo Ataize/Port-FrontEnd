@@ -57,10 +57,11 @@
 	margin: 1%;
 }
 .mensagem {
-	height: 250px;
+	height: 200px;
 }
 .contato__input {
 	border: none;
+	height: 40px;
 }
 @media (max-width: 768px){
 		.contato {

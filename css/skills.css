@@ -26,8 +26,8 @@
 }
 .skills__item {
 	background: #FFFFFF;
-	width: 156px;
-	height: 118px;
+	width: 150px;
+	height: 120px;
 	margin: 2%;
 	display: flex;
 	flex-direction: column;
@@ -54,4 +54,12 @@
 			padding-left: calc((100% - 156px)/2);
         	padding-right: calc((100% - 156px)/2);
 		}
+		.skills__item {
+			
+			width: 110px;
+			height: 110px;
+			margin: 1%;
+			
+}
+
 	}
