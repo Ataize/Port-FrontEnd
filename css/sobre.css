@@ -3,11 +3,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 34px;
-	position: static;
-	width: 90%;
-	height: 30%;
-	left: 0px;
+	padding-left: 34px;
+	width: 100%;
 	top: 520px;
 }
 .sobre__subtitulo {
@@ -40,6 +37,5 @@
 		.sobre {
 			display: flex;
 			justify-content: center;
-			padding-left: 64px;
 			
 		}

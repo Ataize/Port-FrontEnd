@@ -1,26 +1,23 @@
 .contato {
 	background: #EAF2FD;
 	display: flex;
-	padding: 64px;
-	position: static;
-	width: 100vw;
+	width: 100%;
 	height: 30%;
-	left: 0px;
-	
+
 }
 .contato__imagem {
-	position: static;
+	display: flex;
 	width: 60%;
 	max-width: 450px;
-	left: 0px;
-	top: 65.5px;
+	padding-left: 5%;
+	
 }
 .contato__caixa {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	padding-left: 5%;
-	width: 80%;
+	width: 100%;
 
 }
 .contato__descricao {
@@ -62,12 +59,14 @@
 .contato__input {
 	border: none;
 	height: 40px;
+	
 }
 @media (max-width: 768px){
 		.contato {
 			display: flex;
 			flex-direction: column;
 			flex-wrap: wrap;
+			justify-content: center;
 		}
 
 	}
