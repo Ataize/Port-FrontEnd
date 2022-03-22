@@ -3,6 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	padding: 2rem 0;
 	
 }
 .menu__foto {	
@@ -74,7 +75,8 @@
 		}
 		.menu__principal {
 			display: flex;
-			flex-direction: column;		
+			flex-direction: column;
+			
 		}
 		.menu__titulo {
 			font-size: 30px;
@@ -84,5 +86,7 @@
 		}
 		.menu__rede {
 			margin: auto;
+			
+			padding: .5rem;
 		}
 	}

@@ -12,6 +12,7 @@
 	line-height: 38px;
 	text-align: center;
 	color: #464646;
+	padding-top: 1.5rem;
 }
 .skills__itens {
 	display: flex;

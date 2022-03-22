@@ -1,8 +1,9 @@
 .contato {
 	background: #EAF2FD;
 	display: flex;
-	width: 100%;
+	width: 92%;
 	height: 30%;
+	padding: 2rem;
 
 }
 .contato__imagem {
@@ -52,14 +53,18 @@
 	left: 0px;
 	top: 264px;
 	margin: 1%;
+
 }
 .mensagem {
-	height: 200px;
+	height: 210px;
 }
 .contato__input {
 	border: none;
 	height: 40px;
 	
+}
+.contato__input:hover {
+	border: 1px solid #2A7AE4;
 }
 @media (max-width: 768px){
 		.contato {
