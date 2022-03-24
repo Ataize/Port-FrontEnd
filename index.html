@@ -13,12 +13,10 @@
 		<link rel="stylesheet" href="./css/menu.css">
 		<link rel="stylesheet" href="./css/sobre.css">
 		<link rel="stylesheet" href="./css/skills.css">
-		<link rel="stylesheet" href="./css/formacao.css"
-		><link rel="stylesheet" href="./css/experiencia.css">
+		<link rel="stylesheet" href="./css/formacao.css">
+		<link rel="stylesheet" href="./css/experiencia.css">
 		<link rel="stylesheet" href="./css/contato.css">
-		<link rel="stylesheet" href="./css/rodape.css">
-
-		
+		<link rel="stylesheet" href="./css/rodape.css">		
 	</head>
 	<body>
 		<header class="cabecalho">
@@ -39,8 +37,7 @@
 		</div>
 	</header>
 		<main>
-			<section class="menu">
-				
+			<section class="menu">				
 				<section class="menu__principal">
 					<h1 class="menu__titulo" id="ataize"> Olá! Eu sou Ataize Feitosa, e construí essa página para que conheça um pouco mais sobre mim e meus projetos.</h1>
 					<p class="menu__descricao">Eu sou formada em Pedagogia, estou me especializando em Neuroeducação e atualmente participo do Projeto Oracle ONE na Alura.</p>
@@ -49,10 +46,9 @@
 							<a class="menu__rede" href="https://github.com/Ataize">Github</a>
 							<a class="menu__rede" href="https://www.linkedin.com/in/ataizefeitosa/">Linkedin</a>
 							<a class="menu__rede" href="https://www.instagram.com/ataizefeitosa/">Instagram</a>
-							<a class="menu__rede">Currículo</a>
+							<a class="menu__rede" href="https://1drv.ms/u/s!AorRWqsM2Pb2hKUtobau31d6eD_F2w?e=F4t5o3">Currículo</a>
 						</ul>
 					</nav>
-
 				</section>
 				<img class="menu__foto" alt="Foto de perfil" src="./img/foto.png">
 			</section>
@@ -161,25 +157,25 @@
 				<div class="contato__caixa">
 					<h2 class="sobre__subtitulo">Contato</h2>
 					<p class="contato__descricao">Quer entrar em contato comigo?<br>Preencha o formulário abaixo que entrarei em contato o mais breve possível.<br> Obrigada!</p>
-					<form class="contato__formulario">
+					<form action="" class="contato__formulario" name="form">
 						<div class="contato__informacao"><label>Nome</label>
-						<input class="contato__input" type="text" id="nomesobrenome" class="input-padrao" required></div>
+						<input class="contato__input" type="text" id="nomesobrenome" class="input-padrao" name="nome" required></div>
 						
 
-						<div class="contato__informacao" ><label>E-mail</label><input class="contato__input" type="email" id="e-mail" class="input-padrao" required ></div>
+						<div class="contato__informacao" ><label>E-mail</label><input class="contato__input" type="email" id="e-mail" class="input-padrao" name="email" required ></div>
 
-						<div  class="contato__informacao"><label>Assunto</label><input class="contato__input" type="text" id="assunto" class="input-padrao" required></div>
+						<div  class="contato__informacao"><label>Assunto</label><input class="contato__input" type="text" id="assunto" class="input-padrao" name="assunto" required></div>
 
-						<div class="contato__informacao mensagem"><label>Mensagem</label><textarea class="contato__input" cols="70" rows="10" id="mensagem" class="input-padrao"></textarea required></div>
+						<div class="contato__informacao mensagem"><label>Mensagem</label><textarea class="contato__input" cols="70" rows="10" id="mensagem" class="input-padrao" name="mensagem"></textarea required></div>
 
-						<div ><button class="contato__botao">Enviar mensagem</button></div>
-				</div>
-				
+						<div><button class="contato__botao" type="submit" id="submit">Enviar mensagem</button></div>
+					</form>
+				</div>				
 			</section>
-		</main>
-			
+		</main>			
 		<footer>
 			<p class="rodape">Desenvolvido por Ataize Feitosa <br>2022</p>
-	</footer>
+		</footer>
+	<script src="validacao.js"></script>
 	</body>	
 </html>
