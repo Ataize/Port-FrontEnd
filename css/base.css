@@ -1,13 +1,34 @@
+
 body {
-	background: #f5f5f5;
-	overflow-x: hidden;
-	padding: 2rem 5rem;
-	margin: 0 0 0 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    font-family: 'Raleway';
+    margin: 30px;
+    padding: 0;
+    line-height: 1;
 }
-@media (max-width: 768px){
-	body {
-		padding: .2rem;
-	}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
 
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
 
+textarea::placeholder, input::placeholder{
+    padding: 2%;
+    color:#2A7AE4;
+    
+}
 
+/*Mobile First*/
+.all{
+    display: flex;
+    flex-direction: column;
+}

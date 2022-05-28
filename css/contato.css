@@ -1,16 +1,12 @@
 .contato {
 	background: #EAF2FD;
 	display: flex;
-	width: 92%;
-	height: 30%;
 	padding: 2rem;
-
 }
 .contato__imagem {
 	display: flex;
 	width: 60%;
-	max-width: 464px;
-	padding-left: 5%;
+	max-width: 364px;
 }
 .contato__caixa {
 	display: flex;
@@ -20,38 +16,25 @@
 	width: 100%;
 }
 .contato__descricao {
-	font-family: Raleway;
-	font-style: normal;
-	font-size: 1rem;
 	line-height: 1.2rem;
 	color: #464646;
 	padding: 1%;
 	width: 90%;
-	
 }
 .contato__formulario {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	padding: 0px;
-	
 }
 .contato__informacao {
 	display: flex;
 	flex-direction: column;
 	background: white;
-	font-family: Raleway;
-	font-style: normal;
-	font-size: 16px;
-	font-weight: 500;
 	line-height: 19px;
 	color: #464646;
 	width: 90%;
 	height: 56px;
-	left: 0px;
-	top: 264px;
 	margin: 1%;
-
 }
 .mensagem {
 	position: static;
@@ -64,20 +47,15 @@
 .contato__input {
 	border: transparent;
 	height: 56px;
-	
 }
 .contato__input:hover {
 	border: 1px solid #2A7AE4;
 }
 .contato__botao {
-	position: static;
-	width: 165px;
+	width: 175px;
 	height: 51px;
-	left: 0px;
-	top: 545px;
 	background: #2A7AE4;
 	border: transparent;
-	box-sizing: border-box;
 	color: white;
 	transform: 1s;
 	margin: 2%;

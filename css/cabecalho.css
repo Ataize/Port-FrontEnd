@@ -3,15 +3,13 @@
 	width: 100%;
 }
 .cabecalho__principal {
-	display: flex;
-	height: 5vh;
+	display: flex;	
 	justify-content: space-between;
 	align-items: center;
 }
  .cabecalho__principal-nome {
  	display: -webkit-box;
  	padding: 1.5rem;
-
  }
  .cabecalho__imagem {
  	padding-right: 1%;
@@ -22,18 +20,14 @@
 	font-weight: bold;
 	color: #464646;
 	font-size: 20px;
-
 }
 .cabecalho__nome:hover {
 	font-size: 25px;
 	font-weight: bold;
 }
 .cabecalho__item {
-	display: flex-row;
-	text-decoration: none;
 	padding-right: 20px;
 	color: #464646;
-
 }
 .cabecalho__item:hover {
 	font-size: 1.1em;
@@ -44,8 +38,20 @@
 	padding-right: 0;
 }
 @media (max-width: 768px){
+	.cabecalho{
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	}
 	.cabecalho__item {
 		display:none;
+	}
+	.cabecalho__principal{
+		display: inline-block;
+		margin: 20px;
+	}
+	.cabecalho__imagem{
+		padding-right: 10px;
 	}
 	.email {
 		font-family: Relaway;
